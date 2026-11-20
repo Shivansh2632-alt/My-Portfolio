@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Attendance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>KIET UNIVERSITY</h1>
+    <p>Student Attendance Register</p>
+  </header>
+
+  <main>
+    <section class="add-student">
+      <h2>Add a Student</h2>
+      <form id="student-form">
+        <label for="student-name">Student name:</label>
+        <input type="text" id="student-name" placeholder="Enter a name">
+        <button type="submit">Add Student</button>
+      </form>
+      <p id="message"></p>
+    </section>
+
+    <section class="summary">
+      <h2>Attendance Summary</h2>
+      <p>Total students: <span id="total-count">0</span></p>
+      <p>Present: <span id="present-count">0</span></p>
+      <p>Absent: <span id="absent-count">0</span></p>
+    </section>
+
+    <section class="class-list">
+      <h2>Student List</h2>
+      <ul id="student-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Student Attendance Management</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
