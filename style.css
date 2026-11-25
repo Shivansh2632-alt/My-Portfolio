@@ -1,0 +1,128 @@
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #222222;
+}
+
+main {
+    width: 85%;
+    max-width: 800px;
+    margin: 25px auto;
+}
+
+
+/* College Header */
+
+header {
+    background-color: #6900b5;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 6px;
+}
+
+header p {
+    margin: 0;
+}
+
+
+/* Common Section Styling */
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #6900b5;
+}
+
+
+/* Add Student Form */
+
+input {
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 9px 13px;
+    margin: 3px;
+    background-color: #6900b5;
+    color: white;
+    border: 1px solid #6900b5;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #4f008a;
+    cursor: pointer;
+}
+
+#message {
+    color: #b00020;
+}
+
+
+/* Student List */
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.student-name {
+    flex: 1;
+}
+
+.status {
+    color: #555555;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 12px;
+    color: #555555;
+    text-align: center;
+}
+
+
+/* Small Screen Styling */
+
+@media (max-width: 550px) {
+    main {
+        width: 92%;
+    }
+
+    li {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
